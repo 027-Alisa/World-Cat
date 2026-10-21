@@ -1,0 +1,275 @@
+import { StyleSheet } from 'react-native';
+
+export const COLORS = {
+  green: '#43876A',
+  dark: '#19364A',
+  background: '#F6F7FC',
+  muted: '#737D85',
+  blue: '#547EB9',
+};
+
+const styles = StyleSheet.create({
+  page: {
+    flex: 1,
+    backgroundColor: COLORS.background,
+  },
+  content: {
+    width: '100%',
+    maxWidth: 760,
+    alignSelf: 'center',
+    padding: 20,
+    paddingBottom: 40,
+  },
+  flex: {
+    flex: 1,
+  },
+  heading: {
+    marginVertical: 16,
+  },
+  title: {
+    fontSize: 26,
+    fontWeight: 'bold',
+    color: COLORS.dark,
+    marginBottom: 8,
+  },
+  muted: {
+    fontSize: 15,
+    color: COLORS.muted,
+    lineHeight: 25,
+  },
+  welcome: {
+    borderRadius: 26,
+    overflow: 'hidden',
+    backgroundColor: '#E8F2E6',
+    marginTop: 12,
+  },
+  welcomeBody: {
+    backgroundColor: '#E8F2E6',
+    padding: 26,
+    alignItems: 'center',
+    borderRadius: 22,
+  },
+  welcomeTitle: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: COLORS.dark,
+    textAlign: 'center',
+  },
+  welcomeThai: {
+    fontSize: 27,
+    fontWeight: 'bold',
+    color: COLORS.green,
+    marginVertical: 8,
+  },
+  welcomeText: {
+    fontSize: 17,
+    color: '#536457',
+    lineHeight: 30,
+    textAlign: 'center',
+    marginVertical: 12,
+  },
+  picture: {
+    height: 220,
+    backgroundColor: '#E4EBF5',
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+    borderRadius: 18,
+  },
+  image: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+  },
+  bigEmoji: {
+    fontSize: 90,
+  },
+  button: {
+    backgroundColor: COLORS.green,
+    paddingHorizontal: 22,
+    paddingVertical: 14,
+    borderRadius: 14,
+    alignItems: 'center',
+    marginVertical: 12,
+  },
+  buttonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  stats: {
+    flexDirection: 'row',
+    gap: 12,
+    marginTop: 20,
+  },
+  stat: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 18,
+    padding: 17,
+    alignItems: 'center',
+  },
+  statNumber: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: COLORS.green,
+  },
+  menuRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: '#E4E6ED',
+    padding: 20,
+    borderRadius: 23,
+    marginBottom: 15,
+    minHeight: 100,
+  },
+  menuEmoji: {
+    fontSize: 34,
+  },
+  rowTitle: {
+    fontSize: 18,
+    lineHeight: 28,
+    fontWeight: 'bold',
+    color: '#303740',
+  },
+  numberCircle: {
+    width: 52,
+    height: 52,
+    borderRadius: 26,
+    backgroundColor: '#DDE8FF',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  number: {
+    fontSize: 23,
+    color: '#375FA1',
+    fontWeight: 'bold',
+  },
+  chevron: {
+    fontSize: 33,
+    color: COLORS.blue,
+  },
+  blueBanner: {
+    backgroundColor: '#DDE8FF',
+    borderRadius: 20,
+    padding: 22,
+    marginBottom: 20,
+  },
+  label: {
+    fontSize: 14,
+    color: '#567EB7',
+    marginVertical: 8,
+    fontWeight: 'bold',
+  },
+  input: {
+    backgroundColor: '#FFFFFF',
+    padding: 15,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#E1E5EB',
+    fontSize: 16,
+    marginBottom: 14,
+    color: COLORS.dark,
+  },
+  chips: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+    marginBottom: 18,
+  },
+  chip: {
+    paddingHorizontal: 18,
+    paddingVertical: 10,
+    borderRadius: 20,
+    backgroundColor: '#E7EBF2',
+  },
+  activeChip: {
+    backgroundColor: COLORS.green,
+  },
+  catCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 23,
+    overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: '#E4E6ED',
+    marginTop: 16,
+  },
+  cardBody: {
+    padding: 20,
+  },
+  cardTitle: {
+    fontSize: 23,
+    fontWeight: 'bold',
+    color: '#303740',
+    marginVertical: 6,
+  },
+  english: {
+    fontSize: 15,
+    color: COLORS.green,
+    marginBottom: 10,
+  },
+  link: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: COLORS.blue,
+    textAlign: 'right',
+    marginTop: 20,
+  },
+  detailBox: {
+    backgroundColor: '#FFFFFF',
+    padding: 22,
+    borderRadius: 20,
+    marginTop: 16,
+  },
+  section: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: COLORS.blue,
+    marginVertical: 12,
+  },
+  paragraph: {
+    fontSize: 17,
+    lineHeight: 31,
+    color: '#58616A',
+  },
+  articleEmoji: {
+    fontSize: 65,
+    textAlign: 'center',
+    marginVertical: 20,
+  },
+  note: {
+    backgroundColor: '#E8F2E6',
+    color: '#58745E',
+    padding: 17,
+    borderRadius: 14,
+    marginTop: 20,
+    lineHeight: 25,
+    textAlign: 'center',
+  },
+  empty: {
+    padding: 25,
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    borderRadius: 22,
+  },
+  teamHeading: {
+    alignItems: 'center',
+    gap: 8,
+    marginVertical: 24,
+  },
+  memberEmoji: {
+    fontSize: 38,
+  },
+  studentId: {
+    color: COLORS.green,
+    fontSize: 16,
+    lineHeight: 25,
+    marginVertical: 6,
+  },
+});
+
+export default styles;
